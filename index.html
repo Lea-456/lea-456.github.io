@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kalkulator">
+        <input type="text" id="layar" disabled>
+        <div class="tombol">
+            <button class="tombol-num" onclick="tambahAngka('7')">7</button>
+            <button class="tombol-num" onclick="tambahAngka('8')">8</button>
+            <button class="tombol-num" onclick="tambahAngka('9')">9</button>
+            <button class="tombol-op" onclick="tambahOperator('/')">/</button>
+            <button class="tombol-num" onclick="tambahAngka('4')">4</button>
+            <button class="tombol-num" onclick="tambahAngka('5')">5</button>
+            <button class="tombol-num" onclick="tambahAngka('6')">6</button>
+            <button class="tombol-op" onclick="tambahOperator('*')">*</button>
+            <button class="tombol-num" onclick="tambahAngka('1')">1</button>
+            <button class="tombol-num" onclick="tambahAngka('2')">2</button>
+            <button class="tombol-num" onclick="tambahAngka('3')">3</button>
+            <button class="tombol-op" onclick="tambahOperator('-')">-</button>
+            <button class="tombol-num" onclick="tambahAngka('0')">0</button>
+            <button class="tombol-op" onclick="tambahOperator('+')">+</button>
+            <button class="tombol-op" onclick="hasil()">=</button>
+            <button class="tombol-op" onclick="hapus()">C</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
